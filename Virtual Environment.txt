@@ -1,0 +1,23 @@
+Q1 :
+A virtual environment is simply a tool that separates the dependencies of different projects by creating a separate isolated environment for each project.
+
+Q2 :
+1. Install Package
+
+First, install python3-venv package by using the following command.
+apt-get install python3-venv
+
+2. Create a Directory
+mkdir djangoenv
+
+3.Enter a Directory
+cd djangoenv
+
+4.Create Virtual Environment
+python3 -m venv djangoenv 
+
+5.Activate Virtual Environment
+
+source djangoenv/bin/activate  
+
+We have finished creating the virtual environment, we can now install django and start our project on it
